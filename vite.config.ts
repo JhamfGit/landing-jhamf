@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "dist", // 👈 ahora genera un build estático en dist/
+    outDir: "dist", 
   },
   plugins: [react()],
   resolve: {
